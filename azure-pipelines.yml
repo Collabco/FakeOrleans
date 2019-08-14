@@ -36,7 +36,7 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
-    packagesToPack: '**/FakeOrleans.csproj'
+    packagesToPack: '**/MockOrleans.csproj'
     versioningScheme: 'off'
 
 - task: NuGetCommand@2
