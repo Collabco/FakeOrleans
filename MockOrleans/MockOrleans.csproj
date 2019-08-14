@@ -30,14 +30,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>    
-    <TargetFramework>net461</TargetFramework>    
-    <PackageId>MockOrleans</PackageId>
-    <Version>1.0.1</Version>
-    <Authors>Collabco</Authors>
-    <Description>Package of MockOrleans for Running Orleans Tests</Description>
-    <IsPackable>true</IsPackable>   
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
