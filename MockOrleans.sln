@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockOrleans", "MockOrleans\MockOrleans.csproj", "{666FEF51-0955-4AC9-BA0E-A6D2982CE6A5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockOrleans.Tests", "MockOrleans.Tests\MockOrleans.Tests.csproj", "{6523B555-7165-48D8-9475-E538B930627A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D17B8AF-3EC7-4DDB-A4E9-46014C0CA737}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yaml = azure-pipelines.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6D57764-1C38-484F-9FD6-26A8E3816262}
 	EndGlobalSection
 EndGlobal
