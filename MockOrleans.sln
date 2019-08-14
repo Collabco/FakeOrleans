@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockOrleans.Tests", "MockOr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D17B8AF-3EC7-4DDB-A4E9-46014C0CA737}"
 	ProjectSection(SolutionItems) = preProject
-		azure-pipelines.yaml = azure-pipelines.yaml
+		azure-pipelines.yml = azure-pipelines.yml
 	EndProjectSection
 EndProject
 Global
